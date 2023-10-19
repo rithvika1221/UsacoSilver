@@ -4,7 +4,7 @@ import java.util.*;
 public class RestaurentCutomers {
 	public static void main(String[] args) throws IOException
 	{
-		BufferedReader r = new BufferedReader(new FileReader("C:\\Users\\anildev\\eclipse-workspace\\UsacoSilver\\bin\\input.in"));
+		BufferedReader r = new BufferedReader(new FileReader("Users/anilkumardevisetti/git/UsacoSilver/UsacoSilver/src/RestaurentCutomers.java"));
 		PrintWriter pw = new PrintWriter("C:\\Users\\anildev\\eclipse-workspace\\UsacoSilver\\src\\output.out");
 
 		StringTokenizer st = new StringTokenizer(r.readLine());
