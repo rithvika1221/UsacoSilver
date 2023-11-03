@@ -24,6 +24,7 @@ public class binarySearch {
 	    int l = 0;
 		int r = n - 1;
 		while(l<= r)
+			
 		{
 			int m = l + (r-l)/2;
 			if (arr[m] == a)
