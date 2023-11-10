@@ -17,7 +17,7 @@ public class firstGraph {
         g.addEdge(5, 6);
        
 		
-		g.dfs(1);
+		g.recDFS(1);
 		
 		
 	}

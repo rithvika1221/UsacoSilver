@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class graph {
 
 	ArrayList<ArrayList<Integer>> graph = new 	ArrayList<ArrayList<Integer>>();
+	HashSet<Integer> visited = new HashSet<Integer>();
 	int V;
 
 	public graph(int nodes) {
@@ -79,6 +80,26 @@ public class graph {
 		}
 		
 	}
+	
+	public void recDFS(int i)
+	{
+		if(visited.contains(i))
+		{
+			return;
+		}
+		
+		visited.add(i);
+		System.out.println(i);
+		
+		for(int j: graph.get(i))
+		{
+			recDFS(j);
+			
+		}
+		
+		
+	}
+	
 
 	public void print() {
 		for(int i =0; i<V; i++) {   
